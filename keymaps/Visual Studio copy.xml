@@ -1,36 +1,34 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
-  <action id="Back">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
-    <keyboard-shortcut first-keystroke="ctrl minus" />
-  </action>
   <action id="CollapseAll">
-    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
-  <action id="ExpandAll">
+  <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl add" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="ExpandExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="ctrl add" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="ExpandRegion">
-    <keyboard-shortcut first-keystroke="ctrl add" />
-  </action>
-  <action id="Forward">
-    <keyboard-shortcut first-keystroke="ctrl alt right" />
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="Images.Editor.ZoomIn">
-    <keyboard-shortcut first-keystroke="ctrl add" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="Images.Editor.ZoomOut">
-    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
 </keymap>
