@@ -1,4 +1,8 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
@@ -24,6 +28,7 @@
     <keyboard-shortcut first-keystroke="ctrl colon" />
     <keyboard-shortcut first-keystroke="ctrl period" />
   </action>
+  <action id="CopyPaths" />
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorDecreaseFontSize">
     <mouse-shortcut keystroke="control button142" />
@@ -45,6 +50,14 @@
     <keyboard-shortcut first-keystroke="ctrl alt right" />
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift ctrl alt n" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
@@ -61,7 +74,12 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="RecentFiles" />
   <action id="ShowContent" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="Vcs.UpdateProject" />
   <action id="XDebugger.MoveWatchDown" />
   <action id="XDebugger.MoveWatchUp" />
 </keymap>
