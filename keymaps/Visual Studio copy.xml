@@ -12,6 +12,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
@@ -70,6 +74,7 @@
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
+  <action id="IntroduceConstant" />
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MoveLineDown">
