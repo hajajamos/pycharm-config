@@ -27,12 +27,6 @@
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="CollapseSelection" />
-  <action id="CommentByLineComment">
-    <keyboard-shortcut first-keystroke="ctrl slash" />
-    <keyboard-shortcut first-keystroke="ctrl divide" />
-    <keyboard-shortcut first-keystroke="ctrl colon" />
-    <keyboard-shortcut first-keystroke="ctrl period" />
-  </action>
   <action id="CopyPaths" />
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorDecreaseFontSize">
@@ -97,6 +91,10 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ShowContent" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
