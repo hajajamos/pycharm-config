@@ -13,7 +13,6 @@
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="CheckinProject">
-    <keyboard-shortcut first-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
@@ -86,6 +85,11 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="RecentFiles" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="alt f8" />
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
